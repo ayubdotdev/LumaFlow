@@ -8,7 +8,7 @@ export default function Home() {
     >
       {/* Navbar */}
       <nav className="grid grid-cols-[1fr_auto_1fr] items-center max-w-7xl mx-auto px-8 py-6 w-full">
-        <div className="flex justify-start pl-41">
+        <div className="flex justify-start pl-31">
           <div className="text-white font-bold text-xl tracking-tight">
             LumaFlow
           </div>
@@ -22,7 +22,7 @@ export default function Home() {
           <li><a href="#" className="hover:text-white transition-colors">Pricing</a></li>
         </ul>
 
-        <div className="flex justify-end pr-41">
+        <div className="flex justify-end pr-31">
           <button className="bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white font-semibold px-3 py-1 rounded-lg shadow-lg  ring-2 ring-blue-500/50 shadow-blue-500/40 transition-all duration-300">
             Get started
           </button>
@@ -31,8 +31,8 @@ export default function Home() {
 
       {/* Hero Section */}
       <div className="flex flex-col items-center justify-center flex-1 text-center px-4 py-8">
-        <h1 className="text-3xl md:text-5xl font-extrabold mb-6 text-white leading-tight">
-          Unlock Speed.<br />
+        <h1 className="text-3xl md:text-6xl font-extrabold mb-6 text-white leading-tight">
+          Unlock Speed<br />
           <span className="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-700 bg-clip-text text-transparent">
             Automate with LumaFlow
           </span>
@@ -45,7 +45,7 @@ export default function Home() {
           Book a Demo
         </button>
 
-        <div className="relative bottom-9 w-[550px] h-[730px] overflow-hidden bg-transparent rounded-2xl shadow-2xl">
+        <div className="relative bottom-4 w-[550px] h-[730px] overflow-hidden bg-transparent rounded-2xl shadow-2xl">
           <Image
             src="/iphonemockup.png"
             alt="iPhone Mockup showing LumaFlow automation dashboard"
